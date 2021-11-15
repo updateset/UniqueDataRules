@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-01-18 22:20:24">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Make ServiceNow behave the way its supposed to.</description>
+<inserted/>
+<name>Unique Data Rules</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>515da8211c3120102ec8ccbee0cd6852</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>058de8e11c3120102ec8ccbee0cd6801</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_459e49d748b710102ec811b44d00a847</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Default access control on unique_data_mapping</description><express_security>false</express_security><name>unique_data_mapping</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>459e49d748b710102ec811b44d00a847</sys_id><sys_mod_count>1</sys_mod_count><sys_name>unique_data_mapping</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_security_acl_459e49d748b710102ec811b44d00a847</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:11:49</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>301086659</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>018d24251c3120102ec8ccbee0cd68c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179501250000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_unique_data_mapping_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="unique_data_mapping" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>composite_key</element><list_id display_value="unique_data_mapping" element="NULL" name="unique_data_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">24bf491b48b710102ec811b44d00a877</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:13:31</sys_created_on><sys_id>ecbf491b48b710102ec811b44d00a877</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:13:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>none_duplicate_fields</element><list_id display_value="unique_data_mapping" element="NULL" name="unique_data_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">24bf491b48b710102ec811b44d00a877</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:13:31</sys_created_on><sys_id>60bf491b48b710102ec811b44d00a878</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:13:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>order</element><list_id display_value="unique_data_mapping" element="NULL" name="unique_data_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">24bf491b48b710102ec811b44d00a877</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:13:31</sys_created_on><sys_id>e0bf491b48b710102ec811b44d00a878</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:13:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>rule_name</element><list_id display_value="unique_data_mapping" element="NULL" name="unique_data_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">24bf491b48b710102ec811b44d00a877</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:13:31</sys_created_on><sys_id>64bf491b48b710102ec811b44d00a878</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:13:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>table</element><list_id display_value="unique_data_mapping" element="NULL" name="unique_data_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">24bf491b48b710102ec811b44d00a877</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:13:31</sys_created_on><sys_id>e4bf491b48b710102ec811b44d00a878</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:13:31</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>unique_data_mapping</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:13:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>24bf491b48b710102ec811b44d00a877</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_ui_list_unique_data_mapping_null</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:13:31</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>1807339971</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>018d24251c3120102ec8ccbee0cd68c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795022b0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_unique_data_mapping_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="unique_data_mapping"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;unique_data_mapping&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass&gt;2&lt;/sizeclass&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 01:08:38&lt;/sys_created_on&gt;&lt;sys_id&gt;099e49d748b710102ec811b44d00a87d&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;unique_data_mapping&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_unique_data_mapping_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-18 22:13:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>720896071</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>018de8e11c3120102ec8ccbee0cd6804</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179504400000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_22cd511748f710102ec811b44d00a8e7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;unique_data_mapping&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;AutoGenerate Business Rules&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var gr = new GlideRecord('sys_script');
+	gr.addQuery('collection',current.table);
+	gr.addQuery('name','CS_PreventDuplicates');
+	gr.query();
+	if(gr.next())
+		{
+			if(gr.active == false)
+				{
+					gs.addInfoMessage("Setting Business Rule CS_PreventDuplicates on Table "+current.table+" to Active");
+					gr.setValue('active', true);
+					gr.update();
+				}
+		} else {
+			gs.addInfoMessage("Adding Business Rule CS_PreventDuplicates on Table "+current.table+" to Active");
+			gr.get('147c3d53483b10102ec811b44d00a81f'); //Getting the Template BR
+			gr.setValue('name','CS_PreventDuplicates');
+			gr.setValue('active', true);
+			gr.setValue('collection', current.table);
+			gr.insert();			
+		}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 04:32:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;22cd511748f710102ec811b44d00a8e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;AutoGenerate Business Rules&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_22cd511748f710102ec811b44d00a8e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 04:32:52&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=22cd511748f710102ec811b44d00a8e7"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>164704782</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>018de8e11c3120102ec8ccbee0cd6807</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795029f0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>AutoGenerate Business Rules</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_7870d55b48b710102ec811b44d00a89e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.UniqueDataUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;This utility is used to calculate whether duplicate records exist and to generate new business rules for on insert events.&lt;/description&gt;&lt;name&gt;UniqueDataUtil&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var UniqueDataUtil = Class.create();
+UniqueDataUtil.prototype = {
+	initialize: function() {
+	},
+
+	foundDupe: function(current)
+	{
+		var dupeArr = [];
+
+		var dupeConfigs = new GlideRecord('unique_data_mapping');
+		dupeConfigs.addQuery('active',true);
+		dupeConfigs.addQuery('table', current.getTableName());
+		dupeConfigs.query();
+		while(dupeConfigs.next())
+		{
+			if(dupeConfigs.composite_key == true)
+			{
+				dupeArr.push(this._compositeKey(current, dupeConfigs.getValue('none_duplicate_fields')));
+			} else {
+				var fields = dupeConfigs.getValue('none_duplicate_fields').split(',');
+				for(var i=0;i&lt;fields.length;i++){
+					dupeArr.push(this._uniqueField(current, fields[i]));
+				}
+			}
+		}
+
+		if(dupeArr.indexOf(true) &gt; -1)
+			return true;
+		else
+			return false;
+	},
+
+	_compositeKey: function(current, fields)
+	{
+		var fieldsArr = fields.split(',');
+		var gr = new GlideRecord(current.getTableName());
+		gr.addQuery('sys_id','!=',current.getUniqueValue());
+		for(var f=0;f&lt;fieldsArr.length;f++)
+			{
+				gr.addQuery(fieldsArr[f],current.getValue(fieldsArr[f]));
+			}
+		gr.query();
+		if(gr.next())
+			{
+				gs.log("Table: "+gr.getTableName()+" Conflicting Record: "+gr.getUniqueValue(),"Common Sense - Dupe Prevention");
+				return true;
+			}
+		else
+			return false;
+	},
+
+	_uniqueField: function(current, field)
+	{
+		var gr = new GlideRecord(current.getTableName());
+		gr.addQuery(field, current.getValue(field));
+		gr.addQuery('sys_id','!=',current.getUniqueValue());
+		gr.query();
+		if(gr.next())
+			{
+				gs.log("Table: "+gr.getTableName()+" Conflicting Record: "+gr.getUniqueValue(),"Common Sense - Dupe Prevention");
+				return true;
+			}
+		else
+			return false;
+	},
+
+	type: 'UniqueDataUtil'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 01:20:51&lt;/sys_created_on&gt;&lt;sys_id&gt;7870d55b48b710102ec811b44d00a89e&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;UniqueDataUtil&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_7870d55b48b710102ec811b44d00a89e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-17 22:09:57&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1193682123</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>058d24251c3120102ec8ccbee0cd68bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503b20000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>UniqueDataUtil</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b82f051b48b710102ec811b44d00a8b3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:11:05</sys_created_on><sys_id>b82f051b48b710102ec811b44d00a8b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.snc_internal</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">8d9e49d748b710102ec811b44d00a83e</sys_security_acl><sys_update_name>sys_security_acl_role_b82f051b48b710102ec811b44d00a8b3</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:11:05</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>bc2f8d17487710102ec811b44d00a885</transaction_id></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-316155936</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>058d24251c3120102ec8ccbee0cd68c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795017b0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.snc_internal</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_58cc819748b710102ec811b44d00a891</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Unique Data Mapping</label><live_feed_enabled>false</live_feed_enabled><name>unique_data_mapping</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>58cc819748b710102ec811b44d00a891</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Unique Data Mapping</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_db_object_58cc819748b710102ec811b44d00a891</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:10:35</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1674002649</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>058de8e11c3120102ec8ccbee0cd6803</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500850000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_80f0c99b487710102ec811b44d00a85d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Allow globally scoped applications in studio</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>sn_g_app_creator.allow_global</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 00:09:47</sys_created_on><sys_id>80f0c99b487710102ec811b44d00a85d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sn_g_app_creator.allow_global</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_properties_80f0c99b487710102ec811b44d00a85d</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 00:22:46</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=80f0c99b487710102ec811b44d00a85d"/><sys_claim action="INSERT_OR_UPDATE"><claim_owner_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</claim_owner_scope><claim_timestamp>17533effba90000001</claim_timestamp><metadata_update_name>sys_properties_80f0c99b487710102ec811b44d00a85d</metadata_update_name><previous_claim_app_version>0.0.1</previous_claim_app_version><previous_claim_name>Common Sense</previous_claim_name><previous_claim_scope>16c1899b487710102ec811b44d00a88a</previous_claim_scope><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 00:22:46</sys_created_on><sys_id>5d14c95f487710102ec811b44d00a815</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 00:22:46</sys_updated_on></sys_claim></record_update>]]></payload>
+<payload_hash>1409002255</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>058de8e11c3120102ec8ccbee0cd6806</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ff6c0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>sn_g_app_creator.allow_global</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_499e49d748b710102ec811b44d00a839</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>499e49d748b710102ec811b44d00a839</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.unique_data_mapping_user</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">cd9e49d748b710102ec811b44d00a833</sys_security_acl><sys_update_name>sys_security_acl_role_499e49d748b710102ec811b44d00a839</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:38</sys_updated_on><sys_user_role display_value="">f89e0d9748b710102ec811b44d00a811</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-803825832</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>098d24251c3120102ec8ccbee0cd68c1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500e00000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.unique_data_mapping_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_0d9e49d748b710102ec811b44d00a825</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category><description/><device_type>browser</device_type><hint/><name>Common Sense Configs</name><order>100</order><roles>admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0d9e49d748b710102ec811b44d00a825</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Unique Data</sys_name><sys_overrides/><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_app_application_0d9e49d748b710102ec811b44d00a825</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-11-10 02:57:47</sys_updated_on><title>Unique Data</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>1788736244</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>098de8e11c3120102ec8ccbee0cd6802</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795032d0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>Unique Data</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_unique_data_mapping_rule_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="rule_name" label="Rule Name" language="en" table="unique_data_mapping"><sys_documentation action="INSERT_OR_UPDATE"><element>rule_name</element><help/><hint/><label>Rule Name</label><language>en</language><name>unique_data_mapping</name><plural>Rule Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:39</sys_created_on><sys_id>419e49d748b710102ec811b44d00a88c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Rule Name</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_documentation_unique_data_mapping_rule_name_en</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>331554042</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>098de8e11c3120102ec8ccbee0cd6805</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795000e0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.Rule Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_059e49d748b710102ec811b44d00a879</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>059e49d748b710102ec811b44d00a879</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.unique_data_mapping_user</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">419e49d748b710102ec811b44d00a875</sys_security_acl><sys_update_name>sys_security_acl_role_059e49d748b710102ec811b44d00a879</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:38</sys_updated_on><sys_user_role display_value="">f89e0d9748b710102ec811b44d00a811</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1543196146</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>0d8d24251c3120102ec8ccbee0cd68c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500d50000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.unique_data_mapping_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_f89e0d9748b710102ec811b44d00a811</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="DELETE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>unique_data_mapping_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><snbe>false</snbe><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:37</sys_created_on><sys_id>f89e0d9748b710102ec811b44d00a811</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping_user</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_user_role_f89e0d9748b710102ec811b44d00a811</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:37</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1011668752</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>0d8d24251c3120102ec8ccbee0cd68c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500bb0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table/>
+<target_name>unique_data_mapping_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>fn_normalize_config_e209819348b710102ec811b44d00a8e6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="fn_normalize_config"><fn_normalize_config action="DELETE"><coalesce>false</coalesce><field>email</field><mode>test</mode><name>Duplicate Users</name><normalize_query>true</normalize_query><raw_field/><sys_class_name>fn_normalize_config</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 00:45:01</sys_created_on><sys_id>e209819348b710102ec811b44d00a8e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Duplicate Users</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>fn_normalize_config_e209819348b710102ec811b44d00a8e6</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 00:45:01</sys_updated_on><table>sys_user</table></fn_normalize_config></record_update>]]></payload>
+<payload_hash>-1617017821</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>0d8de8e11c3120102ec8ccbee0cd6801</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ff970000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>sys_user</table>
+<target_name>Duplicate Users</target_name>
+<type>Normalization</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_unique_data_mapping_active_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="active" label="Active" language="en" table="unique_data_mapping"><sys_documentation action="INSERT_OR_UPDATE"><element>active</element><help/><hint/><label>Active</label><language>en</language><name>unique_data_mapping</name><plural>Active</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:27:43</sys_created_on><sys_id>20f295db48b710102ec811b44d00a84b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_documentation_unique_data_mapping_active_en</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:27:43</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1429291107</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>0d8de8e11c3120102ec8ccbee0cd6804</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179502680000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.Active</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_d3f3afc5907120102ec8d15971dab0c0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_user&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;CS_PreventDuplicates&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var dupeUtil = new global.UniqueDataUtil();
+	if(dupeUtil.foundDupe(current))
+	{
+		gs.addErrorMessage('Duplicate Record Found Please Check the Logs');
+		current.setAbortAction(true);
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-17 22:20:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d3f3afc5907120102ec8d15971dab0c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CS_PreventDuplicates&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d3f3afc5907120102ec8d15971dab0c0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-17 22:20:40&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d3f3afc5907120102ec8d15971dab0c0"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1737448996</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>418d24251c3120102ec8ccbee0cd68bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503de0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>sys_user</table>
+<target_name>CS_PreventDuplicates</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b02f051b48b710102ec811b44d00a8ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:11:05</sys_created_on><sys_id>b02f051b48b710102ec811b44d00a8ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.snc_internal</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">459e49d748b710102ec811b44d00a847</sys_security_acl><sys_update_name>sys_security_acl_role_b02f051b48b710102ec811b44d00a8ad</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:11:05</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>bc2f8d17487710102ec811b44d00a885</transaction_id></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>34100070</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>418d24251c3120102ec8ccbee0cd68c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795014b0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.snc_internal</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_e44cfcc02d2020102ec860bd5391054f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Unique Data">0d9e49d748b710102ec811b44d00a825</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Documentation</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>8000</order><override_menu_roles>false</override_menu_roles><query>https://updateset.com/servicenow-app/unique-data-free/</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-11-13 04:15:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e44cfcc02d2020102ec860bd5391054f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Documentation</sys_name><sys_overrides/><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_app_module_e44cfcc02d2020102ec860bd5391054f</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-11-13 04:15:47</sys_updated_on><timeline_page/><title>Documentation</title><uncancelable>false</uncancelable><view_name/><window_name>_blank</window_name></sys_app_module></record_update>]]></payload>
+<payload_hash>-170384875</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>418de8e11c3120102ec8ccbee0cd6803</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795037f0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>Documentation</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_embedded_help_role_f89e0d9748b710102ec811b44d00a814</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role"><sys_embedded_help_role action="INSERT_OR_UPDATE"><order>1000</order><role/><sys_class_name>sys_embedded_help_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:37</sys_created_on><sys_id>f89e0d9748b710102ec811b44d00a814</sys_id><sys_mod_count>0</sys_mod_count><sys_name>f89e0d9748b710102ec811b44d00a811</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_embedded_help_role_f89e0d9748b710102ec811b44d00a814</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:37</sys_updated_on></sys_embedded_help_role></record_update>]]></payload>
+<payload_hash>354474743</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>418de8e11c3120102ec8ccbee0cd6806</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ffd90000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name/>
+<type>Embedded Help Role Priority</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_419e49d748b710102ec811b44d00a843</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>419e49d748b710102ec811b44d00a843</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.unique_data_mapping_user</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">8d9e49d748b710102ec811b44d00a83e</sys_security_acl><sys_update_name>sys_security_acl_role_419e49d748b710102ec811b44d00a843</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:38</sys_updated_on><sys_user_role display_value="">f89e0d9748b710102ec811b44d00a811</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>873283477</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>458d24251c3120102ec8ccbee0cd68c1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500940000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.unique_data_mapping_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_16c1899b487710102ec811b44d00a88a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><installed_as_dependency>false</installed_as_dependency><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>Unique Data Rules</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>global</scope><scoped_administration>false</scoped_administration><short_description>Make ServiceNow behave the way its supposed to.</short_description><source>16c1899b487710102ec811b44d00a88a</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 00:12:44</sys_created_on><sys_id>16c1899b487710102ec811b44d00a88a</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-11-10 02:56:09</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>-2068117414</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>458de8e11c3120102ec8ccbee0cd6802</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ff310000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>Unique Data Rules</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_unique_data_mapping_order_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="order" label="Order" language="en" table="unique_data_mapping"><sys_documentation action="DELETE"><element>order</element><help/><hint/><label>Order</label><language>en</language><name>unique_data_mapping</name><plural>Orders</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:39</sys_created_on><sys_id>419e49d748b710102ec811b44d00a88b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_documentation_unique_data_mapping_order_en</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1509063186</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>458de8e11c3120102ec8ccbee0cd6805</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503ce0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.order</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_018fc51b48b710102ec811b44d00a803</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:12:59</sys_created_on><sys_id>018fc51b48b710102ec811b44d00a803</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.admin</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">cd9e49d748b710102ec811b44d00a833</sys_security_acl><sys_update_name>sys_security_acl_role_018fc51b48b710102ec811b44d00a803</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:12:59</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-708213676</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>498d24251c3120102ec8ccbee0cd68c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179501b00000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_76535ddb48b710102ec811b44d00a82d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="76535ddb48b710102ec811b44d00a82d" sys_domain="global" table="unique_data_mapping" version="3" view=""><sys_ui_section action="DELETE"><caption>New Section</caption><header>false</header><name>unique_data_mapping</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>76535ddb48b710102ec811b44d00a82d</sys_id><sys_mod_count/><sys_name>unique_data_mapping</sys_name><sys_overrides/><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2021-01-17 22:21:24</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1411409581</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>498d24251c3120102ec8ccbee0cd68c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179504040000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>fn_config_e667415348b710102ec811b44d00a849</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="fn_config"><fn_config action="DELETE"><field>email</field><mode>test</mode><name>Duplicate Emails</name><normalize_query>true</normalize_query><raw_field/><sys_class_name>fn_config</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 00:38:30</sys_created_on><sys_id>e667415348b710102ec811b44d00a849</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Duplicate Emails</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>fn_config_e667415348b710102ec811b44d00a849</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 00:38:30</sys_updated_on><table>sys_user</table></fn_config></record_update>]]></payload>
+<payload_hash>-1731213393</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>498de8e11c3120102ec8ccbee0cd6801</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ff7b0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>sys_user</table>
+<target_name>Duplicate Emails</target_name>
+<type>Configuration</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_unique_data_mapping_table</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="table" table="unique_data_mapping"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Table&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;80&lt;/max_length&gt;&lt;name&gt;unique_data_mapping&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 01:08:37&lt;/sys_created_on&gt;&lt;sys_id&gt;6ccc015748b710102ec811b44d00a8e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Table&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_unique_data_mapping_table&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 01:08:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1081297634</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>498de8e11c3120102ec8ccbee0cd6804</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ffbf0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.Table</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_419e49d748b710102ec811b44d00a875</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Default access control on unique_data_mapping</description><express_security>false</express_security><name>unique_data_mapping</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>419e49d748b710102ec811b44d00a875</sys_id><sys_mod_count>1</sys_mod_count><sys_name>unique_data_mapping</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_security_acl_419e49d748b710102ec811b44d00a875</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:11:28</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>980104405</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>4d8d24251c3120102ec8ccbee0cd68bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500fc0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_859e49d748b710102ec811b44d00a82d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Common Sense Configs</name><order/><roles>admin</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>859e49d748b710102ec811b44d00a82d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Common Sense Configs</sys_name><sys_overrides/><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_ui_application_859e49d748b710102ec811b44d00a82d</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 04:34:22</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-957536629</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>4d8d24251c3120102ec8ccbee0cd68c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179502e30000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table/>
+<target_name>Common Sense Configs</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_unique_data_mapping_none_duplicate_fields</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="none_duplicate_fields" table="unique_data_mapping"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;None Duplicate Fields&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table&lt;/dependent&gt;&lt;dependent_on_field&gt;table&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;none_duplicate_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;field_list&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;unique_data_mapping&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 01:08:38&lt;/sys_created_on&gt;&lt;sys_id&gt;144e895748b710102ec811b44d00a82f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;None Duplicate Fields&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_unique_data_mapping_none_duplicate_fields&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 01:09:46&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>699017959</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>4d8de8e11c3120102ec8ccbee0cd6803</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500750000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.None Duplicate Fields</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_147c3d53483b10102ec811b44d00a81f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;unique_data_mapping&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;DO NOT DELETE CS PREVENTDEFAULT TEMPLATE&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var dupeUtil = new global.UniqueDataUtil();
+	if(dupeUtil.foundDupe(current))
+	{
+		gs.addErrorMessage('Duplicate Record Found Please Check the Logs');
+		current.setAbortAction(true);
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 04:31:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;147c3d53483b10102ec811b44d00a81f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;DO NOT DELETE CS PREVENTDEFAULT TEMPLATE&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_147c3d53483b10102ec811b44d00a81f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-11-10 02:59:57&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=147c3d53483b10102ec811b44d00a81f"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1087048363</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>4d8de8e11c3120102ec8ccbee0cd6806</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795033f0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>DO NOT DELETE CS PREVENTDEFAULT TEMPLATE</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_104f051b48b710102ec811b44d00a81e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:11:49</sys_created_on><sys_id>104f051b48b710102ec811b44d00a81e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.admin</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">459e49d748b710102ec811b44d00a847</sys_security_acl><sys_update_name>sys_security_acl_role_104f051b48b710102ec811b44d00a81e</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:11:49</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-834512553</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>818d24251c3120102ec8ccbee0cd68c1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179501190000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>fn_type_5fd8459348b710102ec811b44d00a844</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="fn_type"><fn_type action="INSERT_OR_UPDATE"><name>Email</name><sys_class_name>fn_type</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 00:43:55</sys_created_on><sys_id>5fd8459348b710102ec811b44d00a844</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Email</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>fn_type_5fd8459348b710102ec811b44d00a844</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 00:43:55</sys_updated_on><type>email</type><use_for_normalize>true</use_for_normalize><use_for_transform>false</use_for_transform></fn_type></record_update>]]></payload>
+<payload_hash>-83043923</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>818de8e11c3120102ec8ccbee0cd6802</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ff8a0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>Email</target_name>
+<type>Field Type</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_unique_data_mapping_none_duplicate_fields_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="none_duplicate_fields" label="None Duplicate Fields" language="en" table="unique_data_mapping"><sys_documentation action="INSERT_OR_UPDATE"><element>none_duplicate_fields</element><help/><hint/><label>None Duplicate Fields</label><language>en</language><name>unique_data_mapping</name><plural>None Duplicate Fields</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:39</sys_created_on><sys_id>419e49d748b710102ec811b44d00a88a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>None Duplicate Fields</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_documentation_unique_data_mapping_none_duplicate_fields_en</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-490689225</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>818de8e11c3120102ec8ccbee0cd6805</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795005c0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.None Duplicate Fields</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_cd9e49d748b710102ec811b44d00a833</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Default access control on unique_data_mapping</description><express_security>false</express_security><name>unique_data_mapping</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>cd9e49d748b710102ec811b44d00a833</sys_id><sys_mod_count>1</sys_mod_count><sys_name>unique_data_mapping</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_security_acl_cd9e49d748b710102ec811b44d00a833</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:12:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1669735565</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>858d24251c3120102ec8ccbee0cd68c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795019c0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_02bf8d1b48b710102ec811b44d00a800</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="02bf8d1b48b710102ec811b44d00a800" sys_domain="global" table="unique_data_mapping" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>rule_name</element><position>0</position><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:30:43</sys_created_on><sys_id>a4a3111f48b710102ec811b44d00a8d5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="unique_data_mapping" sys_domain="global" view="Default view">02bf8d1b48b710102ec811b44d00a800</sys_ui_section><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:30:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>order</element><position>1</position><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:30:43</sys_created_on><sys_id>28a3111f48b710102ec811b44d00a8d5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="unique_data_mapping" sys_domain="global" view="Default view">02bf8d1b48b710102ec811b44d00a800</sys_ui_section><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:30:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>2</position><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:30:43</sys_created_on><sys_id>a8a3111f48b710102ec811b44d00a8d5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="unique_data_mapping" sys_domain="global" view="Default view">02bf8d1b48b710102ec811b44d00a800</sys_ui_section><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:30:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>composite_key</element><position>3</position><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:30:43</sys_created_on><sys_id>2ca3111f48b710102ec811b44d00a8d5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="unique_data_mapping" sys_domain="global" view="Default view">02bf8d1b48b710102ec811b44d00a800</sys_ui_section><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:30:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>table</element><position>4</position><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:30:43</sys_created_on><sys_id>aca3111f48b710102ec811b44d00a8d5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="unique_data_mapping" sys_domain="global" view="Default view">02bf8d1b48b710102ec811b44d00a800</sys_ui_section><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:30:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>none_duplicate_fields</element><position>5</position><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:30:43</sys_created_on><sys_id>20a3111f48b710102ec811b44d00a8d6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="unique_data_mapping" sys_domain="global" view="Default view">02bf8d1b48b710102ec811b44d00a800</sys_ui_section><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:30:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>unique_data_mapping</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:13:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>02bf8d1b48b710102ec811b44d00a800</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping</sys_name><sys_overrides/><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_ui_section_02bf8d1b48b710102ec811b44d00a800</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:13:38</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>746021466</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>858d24251c3120102ec8ccbee0cd68c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795025c0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_unique_data_mapping_rule_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="rule_name" table="unique_data_mapping"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Rule Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;rule_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;50&lt;/max_length&gt;&lt;name&gt;unique_data_mapping&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 01:08:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f6ad0d9748b710102ec811b44d00a87e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Rule Name&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_unique_data_mapping_rule_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 01:08:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-798084165</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>858de8e11c3120102ec8ccbee0cd6804</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ffe80000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.Rule Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_c75eb9db483b10102ec811b44d00a8ae</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="DELETE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_user&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;CS_PreventDuplicates&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var dupeUtil = new global.UniqueDataUtil();
+	if(dupeUtil.foundDupe(current))
+	{
+		gs.addErrorMessage('Duplicate Record Found Please Check the Logs');
+		current.setAbortAction(true);
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 04:37:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c75eb9db483b10102ec811b44d00a8ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;CS_PreventDuplicates&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c75eb9db483b10102ec811b44d00a8ae&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-11-10 02:59:47&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c75eb9db483b10102ec811b44d00a8ae"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1425977424</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>858de8e11c3120102ec8ccbee0cd6807</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503500000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>sys_user</table>
+<target_name>CS_PreventDuplicates</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_f72c606f483350102ec811b44d00a8b2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="DELETE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.UserCriteria&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Globally Accesible function to test if user can see catalog item.&amp;#13;
+This script include was made via cloning the UserCriteriaDiagnosticsUtil Script include and modifying it so that it can be called via widgets and other script includes.&lt;/description&gt;&lt;name&gt;UserCriteria&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var UserCriteria = Class.create();
+UserCriteria.prototype = {
+	initialize: function() {
+	},
+
+	testCriteria: function(request) {
+		/*
+		 * request Object
+		 * request.userId = users sys_id
+		 * request.itemId = catalog_item sys_id
+		 * request.isCatalogItem = true/false
+		 */
+
+		var uclist;
+		var itemId;
+		var userId;
+		var CATALOG = 'catalog';
+		var CATALOG_ITEM = 'catalog_item';
+		var CATEGORY = 'category';
+
+		function _fetchUserCriteriaData() {
+			var matches;
+			var idNameMap = {};
+			var results = [];
+			var isCatalogItem = "" + request.isCatalogItem;
+			var mToMTableName = 'sc_cat_item_user_criteria_mtom';
+			var noMToMTableName = 'sc_cat_item_user_criteria_no_mtom';
+			var columnName = 'sc_cat_item';
+			if (isCatalogItem === 'false') {
+				mToMTableName = 'sc_category_user_criteria_mtom';
+				noMToMTableName = 'sc_category_user_criteria_no_mtom';
+				columnName = 'sc_category';
+			}
+			var itemIncludedCriteria = _fetchAssociation(mToMTableName, columnName, itemId);
+			var itemNotIncludedCriteria = _fetchAssociation(noMToMTableName, columnName, itemId);
+			var matchingAvailableUC = SNC.UserCriteriaLoader.getMatchingCriteria(userId, itemIncludedCriteria);
+			var matchingNotAvailableUC = SNC.UserCriteriaLoader.getMatchingCriteria(userId, itemNotIncludedCriteria);
+
+			idNameMap = _getUserCriteriaNameMap(itemIncludedCriteria.concat(itemNotIncludedCriteria));
+			for (var i = 0; i &lt; itemNotIncludedCriteria.length; i++) {
+				matches = matchingNotAvailableUC.indexOf(itemNotIncludedCriteria[i]) !== -1;
+				results.push({
+					type: "Not Available",
+					uc: itemNotIncludedCriteria[i],
+					matches: matches,
+					name: idNameMap[itemNotIncludedCriteria[i]]
+				});
+			}
+			for (i = 0; i &lt; itemIncludedCriteria.length; i++) {
+				matches = matchingAvailableUC.indexOf(itemIncludedCriteria[i]) !== -1;
+				results.push({
+					type: "Available",
+					uc: itemIncludedCriteria[i],
+					matches: matches,
+					name: idNameMap[itemIncludedCriteria[i]]
+				});
+			}
+
+			return results;
+		}
+
+		function _fetchAssociation(tableName, column, id) {
+			var items = [];
+			var gr = new GlideRecord(tableName);
+			gr.addActiveQuery();
+			gr.addQuery(column, id);
+			gr.addNotNullQuery('user_criteria');
+			gr.addNotNullQuery(column);
+			gr.query();
+			while (gr.next()) {
+				items.push(gr.getValue('user_criteria'));
+			}
+			return items;
+		}
+
+		function _getUserCriteriaNameMap(ids) {
+			var idNameMap = {};
+			var criteriaGr = new GlideRecord('user_criteria');
+			criteriaGr.addQuery("sys_id", "IN", ids);
+			criteriaGr.query();
+			while (criteriaGr.next()) {
+				idNameMap[criteriaGr.getValue("sys_id")] = criteriaGr.getValue("name");
+			}
+			return idNameMap;
+		}
+
+		function _getAndParseData(itemId, userId) {
+			var catItem = new sn_sc.CatItem(itemId);
+			var itemDetails = catItem.getItemSummary();
+			var itemCatalogs = itemDetails.catalogs;
+			var i = 0,
+				j, itemCategories = [];
+			var children;
+			var categoryObject, catalog, categoryTree;
+			var allChildren = [];
+
+			while (i &lt; itemCatalogs.length) {
+				itemDetails.categories = [];
+				// Add catalog in tree
+				children = [{
+					name: itemCatalogs[i].title,
+					sys_id: itemCatalogs[i].sys_id,
+					active: itemCatalogs[i].active,
+					type: CATALOG,
+					viewable: itemCatalogs[i].active
+				}];
+
+				itemCategories = [];
+				var gr = new GlideRecord("sc_cat_item_category");
+				gr.addQuery("sc_cat_item", itemId);
+				gr.addQuery("sc_category.sc_catalog", itemCatalogs[i].sys_id);
+				gr.query();
+				while (gr.next()) {
+					itemCategories.push(gr.getValue("sc_category"));
+				}
+				j = 0;
+				while (j &lt; itemCategories.length) {
+					categoryTree = catItem.getCategoryTree(itemCategories[j]);
+					categoryObject = new sn_sc.CatCategory(categoryTree.sys_id);
+					catalog = categoryObject.getCatalog();
+
+					if (catalog === itemCatalogs[i].sys_id) {
+						itemDetails.categories.push(categoryTree);
+					}
+					j++;
+				}
+				allChildren = allChildren.concat(_getAllChildren(itemDetails.categories, children));
+				i++;
+			}
+
+			// Add catalog item at the top of tree
+			return {
+				name: itemDetails.name,
+				sys_id: itemDetails.sys_id,
+				children: allChildren,
+				type: CATALOG_ITEM,
+				viewable: _viewable(itemDetails.sys_id, userId, CATALOG_ITEM)
+			};
+		}
+
+		function _getAllChildren(categories, children) {
+			var categoryQueue = [];
+			var allCategories = [];
+			var node;
+
+			// Add categories
+			categories.forEach(function(category) {
+				var tempNode, childCategory;
+				node = {
+					name: category.title,
+					sys_id: category.sys_id,
+					active: category.active,
+					children: children,
+					type: CATEGORY,
+					viewable: _viewable(category.sys_id, userId, CATEGORY)
+				};
+
+				if (category.category &amp;&amp; Object.keys(category.category).length) {
+					categoryQueue.push(category.category);
+				}
+
+				while (categoryQueue.length) {
+					tempNode = {};
+					childCategory = categoryQueue.pop();
+					tempNode = {
+						name: childCategory.title,
+						sys_id: childCategory.sys_id,
+						active: childCategory.active,
+						children: [],
+						type: CATEGORY,
+						viewable: _viewable(childCategory.sys_id, userId, CATEGORY)
+					};
+					tempNode.children.push(node);
+					node = tempNode;
+					if (childCategory.category &amp;&amp; Object.keys(childCategory.category).length) {
+						categoryQueue.push(childCategory.category);
+					}
+				}
+				allCategories.push(node);
+			});
+
+			return allCategories;
+		}
+
+		function _viewable(id, userId, type) {
+			var value, resource;
+			switch (type) {
+				case CATALOG_ITEM:
+					resource = GlideappCatalogItem.get(id);
+					return resource.canViewCheck(false, false, user);
+
+				case CATEGORY:
+					resource = GlideappCategory.get(id);
+					value = resource.canView(false, false, false, user, false);
+					return value;
+
+				case CATALOG:
+					resource = GlideappCatalog.get(id);
+					return resource.canView(false, false, user);
+			}
+		}
+
+		function _getData(user) {
+			return {
+				treeData: _getAndParseData(itemId, userId),
+				userName: user.getDisplayName()
+			};
+		}
+
+		function _isUserAuthorised() {
+			return gs.hasRole('catalog_admin') || gs.hasRole('catalog_manager');
+		}
+
+		function methodToExecute() {
+			if (!_isUserAuthorised())
+				return;
+
+			var resultJson = {};
+
+			userId = "" + request.userId;
+			itemId = "" + request.itemId;
+			user = GlideUser.getUserByID(userId);
+			resultJson.ucData = _getData(user);
+			resultJson.userCriteria = _fetchUserCriteriaData();
+			return new JSON().encode(resultJson);
+		}
+		var response = methodToExecute();
+		return response;
+	},
+
+	type: 'UserCriteria'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 17:25:31&lt;/sys_created_on&gt;&lt;sys_id&gt;f72c606f483350102ec811b44d00a8b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;UserCriteria&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f72c606f483350102ec811b44d00a8b2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 18:35:23&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>72090312</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>898d24251c3120102ec8ccbee0cd68bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503920000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>UserCriteria</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_ed5fc51b48b710102ec811b44d00a8e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:12:15</sys_created_on><sys_id>ed5fc51b48b710102ec811b44d00a8e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.admin</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">8d9e49d748b710102ec811b44d00a83e</sys_security_acl><sys_update_name>sys_security_acl_role_ed5fc51b48b710102ec811b44d00a8e4</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:12:15</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>973043537</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>898d24251c3120102ec8ccbee0cd68c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795015d0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_unique_data_mapping_composite_key</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="composite_key" table="unique_data_mapping"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Composite Key&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;composite_key&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;unique_data_mapping&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 01:08:38&lt;/sys_created_on&gt;&lt;sys_id&gt;b95e0d1748b710102ec811b44d00a8ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Composite Key&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_unique_data_mapping_composite_key&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 01:08:38&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>732778508</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>898de8e11c3120102ec8ccbee0cd6803</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794fff50000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.Composite Key</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_0ba3338d907120102ec8d15971dab07c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_user_group&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;CS_PreventDuplicates&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var dupeUtil = new global.UniqueDataUtil();
+	if(dupeUtil.foundDupe(current))
+	{
+		gs.addErrorMessage('Duplicate Record Found Please Check the Logs');
+		current.setAbortAction(true);
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-17 23:29:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0ba3338d907120102ec8d15971dab07c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CS_PreventDuplicates&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_0ba3338d907120102ec8d15971dab07c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-17 23:29:11&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0ba3338d907120102ec8d15971dab07c"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2062452068</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>898de8e11c3120102ec8ccbee0cd6806</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179504170000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>sys_user_group</table>
+<target_name>CS_PreventDuplicates</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_782f051b48b710102ec811b44d00a8c6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:11:05</sys_created_on><sys_id>782f051b48b710102ec811b44d00a8c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.snc_internal</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">cd9e49d748b710102ec811b44d00a833</sys_security_acl><sys_update_name>sys_security_acl_role_782f051b48b710102ec811b44d00a8c6</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:11:05</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>bc2f8d17487710102ec811b44d00a885</transaction_id></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-942165597</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>8d8d24251c3120102ec8ccbee0cd68c1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795018c0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.snc_internal</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_c59e49d748b710102ec811b44d00a829</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Unique Data">0d9e49d748b710102ec811b44d00a825</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Unique Data Mappings</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>unique_data_mapping</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c59e49d748b710102ec811b44d00a829</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Unique Data Mappings</sys_name><sys_overrides/><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_app_module_c59e49d748b710102ec811b44d00a829</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 04:34:05</sys_updated_on><timeline_page/><title>Unique Data Mappings</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>709753963</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>8d8de8e11c3120102ec8ccbee0cd6802</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179502b00000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mappings</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_unique_data_mapping__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Unique Data Mapping" language="en" table="unique_data_mapping"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Unique Data Mapping</label><language>en</language><name>unique_data_mapping</name><plural>Unique Data Mappings</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:39</sys_created_on><sys_id>8d9e49d748b710102ec811b44d00a885</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Unique Data Mapping</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_documentation_unique_data_mapping__en</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-734787404</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>8d8de8e11c3120102ec8ccbee0cd6805</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795004d0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_8d9e49d748b710102ec811b44d00a83e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Default access control on unique_data_mapping</description><express_security>false</express_security><name>unique_data_mapping</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>8d9e49d748b710102ec811b44d00a83e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>unique_data_mapping</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_security_acl_8d9e49d748b710102ec811b44d00a83e</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:12:15</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-268922689</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>c18d24251c3120102ec8ccbee0cd68c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795016d0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_859e49d748b710102ec811b44d00a830</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Common Sense Configs">859e49d748b710102ec811b44d00a82d</application><filter/><name>Unique Data Mappings</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>admin</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>859e49d748b710102ec811b44d00a830</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Unique Data Mappings</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_ui_module_859e49d748b710102ec811b44d00a830</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 04:34:41</sys_updated_on><table>unique_data_mapping</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>538436275</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>c18d24251c3120102ec8ccbee0cd68c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795030a0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mappings</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_unique_data_mapping_order</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="DELETE" element="order" table="unique_data_mapping"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Order&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;order&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;unique_data_mapping&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 01:08:37&lt;/sys_created_on&gt;&lt;sys_id&gt;762e4d9748b710102ec811b44d00a8e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Order&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_unique_data_mapping_order&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 01:08:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-783474210</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>c18de8e11c3120102ec8ccbee0cd6804</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503be0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.order</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_9934459f487710102ec811b44d00a815</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="DELETE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_user&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Prevent Duplicate Emails Users&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var dupeUtil = new global.CommonSenseDupeUtile();
+	if(dupeUtil.foundDupe(current))
+		{
+			gs.addErrorMessage('Duplicate Record Found Please Check the Logs');
+			current.setAbortAction(true);
+		}
+		
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 00:31:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9934459f487710102ec811b44d00a815&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Prevent Duplicate Emails Users&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Common Sense"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_9934459f487710102ec811b44d00a815&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 01:48:42&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9934459f487710102ec811b44d00a815"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1872909650</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>c18de8e11c3120102ec8ccbee0cd6807</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795028f0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>sys_user</table>
+<target_name>Prevent Duplicate Emails Users</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_b720065f483b10102ec811b44d00a8ff</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="DELETE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.GRUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GRUtil&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GRUtil = Class.create();
+GRUtil.prototype = {
+	initialize: function() {
+	},
+	getGR: function(table, sys_id, ignoreOOB)
+	{
+		var gr = new GlideRecord(table);
+		gr.addQuery('sys_id', sys_id);
+		gr.query();
+		if(gr.next())
+			{
+				return this.getObject(gr, ignoreOOB);
+			}
+	},
+
+	getObject: function(gr, ignoreOOB)
+	{
+		var table = gr.getTableName();
+		var fields = [];
+		this.getElements(table, ignoreOOB, fields);
+		var data = {};
+		
+		for(var i=0; i&lt;fields.length; i++)
+			{
+                //initialize the object
+                data[fields[i].element] = fields[i];
+                //append values to object
+                data[fields[i].element].value = JSUtil.notNil(gr.getValue(fields[i].element)) ? gr.getValue(fields[i].element) : null;
+                data[fields[i].element].display_value = JSUtil.notNil(gr.getValue(fields[i].element)) ? gr.getDisplayValue(fields[i].element) : null;
+				if(fields[i].type == 'Currency')
+					{//Currencies require some extra love
+                        data[fields[i].element].currency_code = gr[fields[i].element].getCurrencyCode();
+                        data[fields[i].element].display_value = gr[fields[i].element].getCurrencyDisplayValue();
+                        data[fields[i].element].currency_string = gr[fields[i].element].getCurrencyString();
+                    }
+                    
+                if(fields[i].type.contains('Journal'))
+                {
+                    data[fields[i].element].journal_entries = gr[fields[i].element].getJournalEntry(-1).split("\n\n");
+                }
+
+                if(fields[i].type == 'Document ID')
+                {
+                    data[fields[i].element].dependent_field = fields[i].dependent_on_field;
+                    data[fields[i].element].dependent_field_value = gr.getValue(fields[i].dependent_on_field);
+                    data[fields[i].element].dependent_field_display_value = gr.getDisplayValue(fields[i].dependent_on_field);
+                }
+			}
+		
+		return data;
+		
+	},
+
+	getElements: function(table, ignoreOOB, array)
+	{
+
+		var fields = new GlideRecord('sys_dictionary');
+		fields.addQuery('name',table);
+		fields.addEncodedQuery('elementISNOTEMPTY');
+		if(ignoreOOB)
+			fields.addEncodedQuery('internal_type!=collection^ORinternal_typeISEMPTY');//To ignore all the table dictionaries(optional)
+		fields.query();
+		while(fields.next())
+		{
+			var obj = {};
+			obj.element = fields.getValue('element')+'';
+			obj.column_label = fields.getValue('column_label')+'';
+			obj.type = fields.getDisplayValue('internal_type')+'';
+			obj.mandatory = fields.getDisplayValue('mandatory')+'';
+			obj.read_only = fields.getDisplayValue('read_only')+'';
+			//Getting and applying dictionary overrides
+			this._applyOverrides(table, obj);
+			if(obj.type == 'Choice' || obj.type == 'String' || obj.type == 'Integer')
+				{
+					obj.choices = [];
+					var choice = new GlideRecord('sys_choice');
+					choice.addEncodedQuery('name='+table+'^element='+obj.element);
+					choice.query();
+					while(choice.next())
+						{
+							var temp = {
+								value: choice.getValue('value'),
+								display_value: choice.getValue('label')
+							};
+							
+							obj.choices.push(temp);
+						}
+				}
+			if(obj.type == 'Reference' || obj.type == 'List')
+				{
+					obj.reference = fields.getValue('reference');					
+				}
+            
+            if(obj.type == 'Document ID')
+            {
+                obj.dependent_on_field = fields.getValue('dependent_on_field');
+            }
+			array.push(obj);
+		}
+		
+		var db_obj = new GlideRecord('sys_db_object');
+		db_obj.addQuery('name',table);
+		db_obj.query();
+		if(db_obj.next())
+			{
+				if(JSUtil.notNil(db_obj.super_class))
+					{
+						this.getElements(db_obj.super_class.name,ignoreOOB,array);
+					}
+			}
+	},
+	
+	_applyOverrides: function(table, obj)
+	{
+		var gr = new GlideRecord('sys_dictionary_override');
+		gr.addQuery('name',table);
+		gr.addQuery('element',obj.element);
+		gr.query();
+		if(gr.next())
+			{
+				obj.mandatory = gr.getDisplayValue('mandatory_override')+'';
+				obj.read_only = gr.getDisplayValue('read_only_override')+'';
+			}
+	},
+
+	type: 'GRUtil'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 04:46:20&lt;/sys_created_on&gt;&lt;sys_id&gt;b720065f483b10102ec811b44d00a8ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;GRUtil&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b720065f483b10102ec811b44d00a8ff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 04:46:20&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1041874868</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>c58d24251c3120102ec8ccbee0cd68bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503a20000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>GRUtil</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_c41f89d748b710102ec811b44d00a8a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:11:28</sys_created_on><sys_id>c41f89d748b710102ec811b44d00a8a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.admin</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">419e49d748b710102ec811b44d00a875</sys_security_acl><sys_update_name>sys_security_acl_role_c41f89d748b710102ec811b44d00a8a3</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:11:28</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1968469906</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>c58d24251c3120102ec8ccbee0cd68c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795010a0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_unique_data_mapping_active</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="active" table="unique_data_mapping"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Active&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;active&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;unique_data_mapping&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;geni.palla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-17 01:27:43&lt;/sys_created_on&gt;&lt;sys_id&gt;9de255db48b710102ec811b44d00a86b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Active&lt;/sys_name&gt;&lt;sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unique Data Rules"&gt;16c1899b487710102ec811b44d00a88a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_unique_data_mapping_active&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;geni.palla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-17 01:27:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1788793003</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>c58de8e11c3120102ec8ccbee0cd6803</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179502760000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.Active</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_f255059f487710102ec811b44d00a8a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="DELETE"><choices/><description>This property is used to handle the logic on whether a user cannot have a duplicate email at all or only within the same class.&#13;
+True means no dupliate emails within the same class&#13;
+False means no duplicate emails at all&#13;
+Business Rule: /nav_to.do?uri=sys_script.do?sys_id=9934459f487710102ec811b44d00a815</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>UniqueUserANDClass</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 00:32:18</sys_created_on><sys_id>f255059f487710102ec811b44d00a8a6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>UniqueUserANDClass</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_properties_f255059f487710102ec811b44d00a8a6</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 00:34:05</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=f255059f487710102ec811b44d00a8a6"/></record_update>]]></payload>
+<payload_hash>1491392136</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>c58de8e11c3120102ec8ccbee0cd6806</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771794ffa90000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>UniqueUserANDClass</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_702f051b48b710102ec811b44d00a8a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:11:05</sys_created_on><sys_id>702f051b48b710102ec811b44d00a8a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.snc_internal</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">419e49d748b710102ec811b44d00a875</sys_security_acl><sys_update_name>sys_security_acl_role_702f051b48b710102ec811b44d00a8a6</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:11:05</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>bc2f8d17487710102ec811b44d00a885</transaction_id></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1570031800</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>c98d24251c3120102ec8ccbee0cd68c1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500ab0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.snc_internal</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_872778c02d2020102ec860bd53910598</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Unique Data">0d9e49d748b710102ec811b44d00a825</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Support</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>9000</order><override_menu_roles>false</override_menu_roles><query>https://updateset.com/</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-11-13 03:53:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>872778c02d2020102ec860bd53910598</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Support</sys_name><sys_overrides/><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_app_module_872778c02d2020102ec860bd53910598</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-11-13 03:54:15</sys_updated_on><timeline_page/><title>Support</title><uncancelable>false</uncancelable><view_name/><window_name>_blank</window_name></sys_app_module></record_update>]]></payload>
+<payload_hash>739882891</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>c98de8e11c3120102ec8ccbee0cd6802</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503600000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table/>
+<target_name>Support</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_unique_data_mapping_table_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="table" label="Table" language="en" table="unique_data_mapping"><sys_documentation action="INSERT_OR_UPDATE"><element>table</element><help/><hint/><label>Table</label><language>en</language><name>unique_data_mapping</name><plural>Tables</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:39</sys_created_on><sys_id>419e49d748b710102ec811b44d00a88d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Table</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_documentation_unique_data_mapping_table_en</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1374042502</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>c98de8e11c3120102ec8ccbee0cd6805</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1771795001b0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.Table</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_099e49d748b710102ec811b44d00a84b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:38</sys_created_on><sys_id>099e49d748b710102ec811b44d00a84b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping.unique_data_mapping_user</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_security_acl display_value="unique_data_mapping">459e49d748b710102ec811b44d00a847</sys_security_acl><sys_update_name>sys_security_acl_role_099e49d748b710102ec811b44d00a84b</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:38</sys_updated_on><sys_user_role display_value="">f89e0d9748b710102ec811b44d00a811</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>544257819</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>cd8d24251c3120102ec8ccbee0cd68c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500ec0000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>unique_data_mapping.unique_data_mapping_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_5d9e49d748b710102ec811b44d00a8b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>unique_data_mapping</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:39</sys_created_on><sys_id>5d9e49d748b710102ec811b44d00a8b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unique_data_mapping</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>ua_table_licensing_config_5d9e49d748b710102ec811b44d00a8b2</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:39</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>95139811</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:24</sys_created_on>
+<sys_id>cd8d24251c3120102ec8ccbee0cd68c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500010000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:24</sys_updated_on>
+<table/>
+<target_name>unique_data_mapping</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>fn_transform_config_62dbcd87c9dca0102ec83e9257f4f614</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="fn_transform_config"><fn_transform_config action="DELETE"><field>short_description</field><mode>test</mode><name>Test</name><normalize_query>true</normalize_query><raw_field>description</raw_field><sys_class_name>fn_transform_config</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-11-10 02:50:14</sys_created_on><sys_id>62dbcd87c9dca0102ec83e9257f4f614</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="Common Sense" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Common Sense">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>fn_transform_config_62dbcd87c9dca0102ec83e9257f4f614</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-11-10 02:50:14</sys_updated_on><table>incident</table></fn_transform_config></record_update>]]></payload>
+<payload_hash>-741975182</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>cd8de8e11c3120102ec8ccbee0cd6801</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179503180000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>incident</table>
+<target_name>Test</target_name>
+<type>Transformation</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_unique_data_mapping_composite_key_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="composite_key" label="Composite Key" language="en" table="unique_data_mapping"><sys_documentation action="INSERT_OR_UPDATE"><element>composite_key</element><help/><hint/><label>Composite Key</label><language>en</language><name>unique_data_mapping</name><plural>Composite Keys</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>geni.palla</sys_created_by><sys_created_on>2020-10-17 01:08:39</sys_created_on><sys_id>c99e49d748b710102ec811b44d00a888</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Composite Key</sys_name><sys_package display_value="Unique Data Rules" source="16c1899b487710102ec811b44d00a88a">16c1899b487710102ec811b44d00a88a</sys_package><sys_policy/><sys_scope display_value="Unique Data Rules">16c1899b487710102ec811b44d00a88a</sys_scope><sys_update_name>sys_documentation_unique_data_mapping_composite_key_en</sys_update_name><sys_updated_by>geni.palla</sys_updated_by><sys_updated_on>2020-10-17 01:08:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-909158182</payload_hash>
+<remote_update_set display_value="Unique Data Rules">058de8e11c3120102ec8ccbee0cd6801</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>geni.palla</sys_created_by>
+<sys_created_on>2021-01-18 22:20:23</sys_created_on>
+<sys_id>cd8de8e11c3120102ec8ccbee0cd6804</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>177179500280000001</sys_recorded_at>
+<sys_updated_by>geni.palla</sys_updated_by>
+<sys_updated_on>2021-01-18 22:20:23</sys_updated_on>
+<table>unique_data_mapping</table>
+<target_name>Unique Data Mapping.Composite Key</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
